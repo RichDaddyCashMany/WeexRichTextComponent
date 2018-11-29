@@ -1,0 +1,10 @@
+use_frameworks!
+
+target 'KSWXRichTextComponent_Example' do
+  pod 'KSWXRichTextComponent', :path => '../'
+  target 'KSWXRichTextComponent_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

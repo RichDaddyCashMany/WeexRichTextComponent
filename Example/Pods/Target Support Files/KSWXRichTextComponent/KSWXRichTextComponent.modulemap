@@ -1,0 +1,6 @@
+framework module KSWXRichTextComponent {
+  umbrella header "KSWXRichTextComponent-umbrella.h"
+
+  export *
+  module * { export * }
+}
