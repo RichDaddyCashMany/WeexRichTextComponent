@@ -1,17 +1,19 @@
 ## 介绍
-本质上是一个`UITextView`，用于将`HTML`字符串解析成`NSAttributedString`。
+本仓库是iOS端的weex富文本组件。本质上是一个`UITextView`，用于将`HTML`字符串解析成`NSAttributedString`。
 
-但是，并不是所有`HTML`样式都能被解析出来，比如圆角、渐变、边框等。
+但是，并不是所有`HTML`样式都能被解析出来，比如`圆角`、`渐变`、`边框`等。
 
-本组件对这些特殊样式也一样做了支持，并且支持超链接颜色自定义、文字行数获取等扩展功能。
+本组件对这些特殊样式也一样做了支持，并且支持自定义`超链接颜色`、`文字行数获取`等扩展功能。
 
 ## Cocoapods
 
 ```
-pod KSWXRichTextComponent
+pod 'KSWXRichTextComponent'
 ```
 
 ## 效果演示
+
+![example.png](https://github.com/HJaycee/WeexRichTextComponent/blob/master/example.png?raw=true)
 
 ## 如何使用
 
@@ -128,3 +130,7 @@ border-color: ;
                                           KSWXRichTextLinkUnderlineColorKey: [UIColor orangeColor]
                                           }];
 ```
+
+## LICENSE
+
+MIT
