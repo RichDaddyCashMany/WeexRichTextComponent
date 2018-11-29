@@ -56,7 +56,7 @@ lines: ;
 
 ## 圆角相关样式（style）
 
-> - style中带`border`样式的会被解析成图片附件（NSTextAttachment）替换原来的富文本
+> style中带`border`样式的会被解析成图片附件（NSTextAttachment）替换原来的富文本
 
 ```
 /*自带以下样式，修改无效*/
